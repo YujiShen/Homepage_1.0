@@ -1,0 +1,92 @@
+/*main css */
+
+html, body, h1, h2, h3, h4, p, div,ul,ol,li {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+}
+h1 {
+	font-size: 70px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 100;
+	text-align: center;
+	width: 700px;
+	margin: 0 auto 0 auto;
+}
+h2 strong {
+	font-weight: 400;
+}
+h3 {
+	font-size: 28px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 1px solid #555555;
+	margin: 20px 0 20px 0;
+}
+p {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+}
+a {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#000000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #aa0000;
+}
+.header {
+	background-color: #999999;
+}
+.tagline {
+	background-color: #000000;
+	padding: 20px 0 20px 0;
+}
+.summary, .project, .coursera, .skill {
+	width: 700px;
+	margin: 0 auto;
+}
+.project ul, .coursera ul, .skill ul {
+	list-style-type: none;
+}
+.project li, .skill li {
+	margin-bottom: 10px;
+}
+.coursera li{
+	margin-bottom: 20px;
+}
+.coursera img {
+	float: left;
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+.skill li {
+	background-color: #444444;
+	color: #cccccc;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	display: inline;
+	padding: 4px 8px 4px 8px;
+	margin-right: 10px;
+}
+.skill {
+	margin-bottom: 20px;
+}
+.footer {
+	background-color: #999999;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
